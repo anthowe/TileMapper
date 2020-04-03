@@ -1174,24 +1174,6 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
---- !u!1 &1663738533 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2945267127381908429, guid: 63885f31adebf4d53b65fd3bc3129468,
-    type: 3}
-  m_PrefabInstance: {fileID: 2945267129040075112}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1663738534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1663738533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a47d30e66cfd4a1f94f78c8827a890c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1716767090
 GameObject:
   m_ObjectHideFlags: 0
@@ -2641,15 +2623,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1663738534, guid: 63885f31adebf4d53b65fd3bc3129468, type: 3}
+      propertyPath: runSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2945267127381908416, guid: 63885f31adebf4d53b65fd3bc3129468,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.19
+      value: -1.02
       objectReference: {fileID: 0}
     - target: {fileID: 2945267127381908416, guid: 63885f31adebf4d53b65fd3bc3129468,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.83
+      value: 3.57
       objectReference: {fileID: 0}
     - target: {fileID: 2945267127381908416, guid: 63885f31adebf4d53b65fd3bc3129468,
         type: 3}
