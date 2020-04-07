@@ -73,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -303101775
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -5185843610934385366, guid: bbd41f4c059d0134caaf66037096a8e4,
     type: 3}
@@ -140,8 +140,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.039422512, y: -0.050320745}
-  m_Size: {x: 0.7005501, y: 0.91064143}
+  m_Offset: {x: -0.014591217, y: -0.008110404}
+  m_Size: {x: 0.39266205, y: 0.82622075}
   m_Direction: 0
 --- !u!114 &1663738534
 MonoBehaviour:
