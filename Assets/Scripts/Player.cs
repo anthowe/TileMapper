@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
     {
         if(!isAlive) { return; }
 
+      
         Run();
         Jump();
         FlipSprite();
@@ -46,6 +47,7 @@ public class Player : MonoBehaviour
         Die();
     }
 
+  
     private void Run()
     {
         float controlThrow = Input.GetAxis("Horizontal"); // value between -1 and +1
@@ -60,7 +62,7 @@ public class Player : MonoBehaviour
     }
     private void Jump()
     {
-        if (!myFeet.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
+        if (!myFeet.IsTouchingLayers(LayerMask.GetMask("Ground"))) {  return; }
        
         if (Input.GetButtonDown("Jump"))
         {
