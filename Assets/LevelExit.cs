@@ -4,18 +4,25 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class LevelExit : MonoBehaviour
 {
+    //BoxCollider2D myCollider;
+    [SerializeField] float LevelLoadDelay = 2f;
+    [SerializeField] float LevelLoadSloMo = .2f;
 
-    void WhwnSomethingHappens()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        StartCoroutine(TheThingThatHappens);
+        print("Collided with Level Exit");
+        StartCoroutine(LoadNextLevel());
     }
-    IEnumerator TheThingThatHappens
+    
+    IEnumerator LoadNextLevel()
     {
-        yield with a delay;
+        Time.timeScale = LevelLoadSloMo;
+        yield return new WaitForSecondsRealtime(LevelLoadDelay);
+        Time.timeScale = 1f;
+   
 
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex + 1);
-
+            SceneManager.LoadScene(currentSceneIndex + 1);
         
     }
 }
