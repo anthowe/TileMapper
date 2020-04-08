@@ -12882,6 +12882,75 @@ PolygonCollider2D:
       - {x: -24.663506, y: -8.652901}
       - {x: 12.563887, y: -8.568313}
       - {x: 12.471575, y: 12.8066845}
+--- !u!1001 &1970204831
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5035288383962151773, guid: f38d9bfd52afad1488b9ee218b67e0db,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 51.905643
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035288383962151773, guid: f38d9bfd52afad1488b9ee218b67e0db,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.810213
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035288383962151773, guid: f38d9bfd52afad1488b9ee218b67e0db,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035288383962151773, guid: f38d9bfd52afad1488b9ee218b67e0db,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035288383962151773, guid: f38d9bfd52afad1488b9ee218b67e0db,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035288383962151773, guid: f38d9bfd52afad1488b9ee218b67e0db,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035288383962151773, guid: f38d9bfd52afad1488b9ee218b67e0db,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035288383962151773, guid: f38d9bfd52afad1488b9ee218b67e0db,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035288383962151773, guid: f38d9bfd52afad1488b9ee218b67e0db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035288383962151773, guid: f38d9bfd52afad1488b9ee218b67e0db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035288383962151773, guid: f38d9bfd52afad1488b9ee218b67e0db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5035288383962151774, guid: f38d9bfd52afad1488b9ee218b67e0db,
+        type: 3}
+      propertyPath: m_Name
+      value: Game Exit Icon
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f38d9bfd52afad1488b9ee218b67e0db, type: 3}
 --- !u!1001 &2945267129040075112
 PrefabInstance:
   m_ObjectHideFlags: 0
